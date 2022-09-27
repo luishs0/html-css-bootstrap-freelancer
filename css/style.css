@@ -114,6 +114,7 @@ header ul li a {
 
 .about-p1, .about-p2 {
     padding: 0 2.5rem;
+    width: 100%;
 }
 
 #about a {
@@ -124,15 +125,23 @@ header ul li a {
     border-radius: 10px;
 }
 
-@media screen and (min-width: 992px) {
-    .about-p1 {
-        padding-left: 7rem;
-    }
+/* /about */
 
-    .about-p2 {
-        padding-right: 7rem;
-    }
+/* contact */
+#contact .row .star hr {
+    width: 10%;
+    background-color: #2c3d50;
+    height: 3px;
+    border-color: #2c3d50;
+    opacity: 1;
+    max-width: 80px;
 }
 
-
+.send {
+    text-decoration: none;
+    color: white;
+    background-color: #1abc9d;
+    padding: .4rem .6rem;
+    border-radius: 5px;
+}
 /* /MAIN */
