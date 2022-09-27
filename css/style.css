@@ -144,4 +144,36 @@ header ul li a {
     padding: .4rem .6rem;
     border-radius: 5px;
 }
+/* /contact */
 /* /MAIN */
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background-color: #2c3f50;
+}
+
+.footer-up {
+    background-color: #3b546d;
+}
+
+.footer-down {
+    background-color: #2c3f50;
+}
+
+footer i {
+    margin: .4rem;
+    border: 1px solid white;
+    padding: .3rem;
+    border-radius: 50%;
+}
+
+.fa-copyright {
+    border: none;
+}
+
+.copy {
+    font-size: .8rem;
+    padding: 1rem;
+}
