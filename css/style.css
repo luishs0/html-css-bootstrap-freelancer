@@ -33,3 +33,43 @@ header ul li a {
 }
 
 /* /HEADER */
+
+
+
+/* MAIN */
+
+#banner {
+    background-color: #1abc9d;
+    color: white;
+}
+
+#banner hr {
+    width: 20%;
+    background-color: white;
+    height: 3px;
+    border-color: white;
+    opacity: 1;
+    max-width: 80px;
+}
+
+#banner img {
+    max-width: 250px;
+}
+
+#banner p {
+    font-size: .8rem;
+}
+
+@media screen and (min-width: 576px) {
+    #banner p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 317px) {
+    #banner p {
+        font-size: .6rem;
+    }
+}
+
+/* /MAIN */
