@@ -95,6 +95,44 @@ header ul li a {
 #portfolio .col-12 img {
     border-radius: 10px;
 }
+/* /portfolio */
+
+/* about */
+#about {
+    background-color: #1abc9d;
+    color: white;
+}
+
+#about hr {
+    width: 10%;
+    background-color: white;
+    height: 3px;
+    border-color: white;
+    opacity: 1;
+    max-width: 80px;
+}
+
+.about-p1, .about-p2 {
+    padding: 0 2.5rem;
+}
+
+#about a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: .5rem .8rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .about-p1 {
+        padding-left: 7rem;
+    }
+
+    .about-p2 {
+        padding-right: 7rem;
+    }
+}
 
 
 /* /MAIN */
