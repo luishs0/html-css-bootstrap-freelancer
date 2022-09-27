@@ -38,6 +38,7 @@ header ul li a {
 
 /* MAIN */
 
+/* banner */
 #banner {
     background-color: #1abc9d;
     color: white;
@@ -71,5 +72,29 @@ header ul li a {
         font-size: .6rem;
     }
 }
+/* /banner */
+
+/* portfolio */
+#portfolio hr {
+    width: 20%;
+    background-color: #2c3d50;
+    height: 3px;
+    border-color: #2c3d50;
+    opacity: 1;
+    max-width: 80px;
+}
+
+#portfolio {
+    color: #2c3d50;
+}
+
+#portfolio h2 {
+    font-size: 1.2rem;
+}
+
+#portfolio .col-12 img {
+    border-radius: 10px;
+}
+
 
 /* /MAIN */
