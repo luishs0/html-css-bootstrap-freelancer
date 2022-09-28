@@ -154,6 +154,10 @@ header ul li a {
 .form-floating>label {
     padding: 1rem 0;
 }
+
+.send {
+    background-color: #1abc9d;
+}
 /* /contact */
 /* /MAIN */
 
