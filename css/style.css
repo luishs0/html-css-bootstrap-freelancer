@@ -145,8 +145,14 @@ header ul li a {
     max-width: 80px;
 }
 
-.send {
-    background-color: #1abc9d;
+.form-control {
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+
+.form-floating>label {
+    padding: 1rem 0;
 }
 /* /contact */
 /* /MAIN */
