@@ -18,7 +18,10 @@
 <body>
     
     <!-- HEADER -->
-    <header class="d-flex align-items-center">
+
+    <!-- -------------------NAVBAR FATTA CUSTOM------------------------------ -->
+    
+    <!-- <header class="d-flex align-items-center ms_h-40px">
 
         <div class="container">
 
@@ -43,7 +46,39 @@
 
         </div>
 
+    </header> -->
+
+
+<!-- ---------------------------NAVBAR FATTA BOOTSTRAP------------------------------ -->
+    <header>
+
+        <nav class="navbar navbar-dark navbar-expand-lg ms_navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
     </header>
+
     <!-- /HEADER -->
     
 
@@ -180,7 +215,7 @@
 
                     <div class="col-12 ps-5 pe-5 mt-3">
                         <hr>
-                        <a class="send" href="">Send</a>
+                        <a class="btn btn-success send" href="">Send</a>
                     </div>
 
                 </div>
@@ -207,15 +242,15 @@
                     <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
                         LOCATION <br> 2215 Jonh Daniel Drive Clark, MO54243
                     </div>
-                    <div class="col-12 col-md-4 mt-5">
+                    <div class="col-12 col-md-4 mt-5 d-flex flex-wrap justify-content-center">
 
-                        <p>AROUND THE WEB</p>
-                        <P>
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-google"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </P>
+                        <div class="w-100"><p>AROUND THE WEB</p></div>
+
+                        <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="icon"><i class="fa-brands fa-google"></i></div>
+                        <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                         <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        
 
                     </div>
                     <div class="col-12 col-md-4 mt-4">
